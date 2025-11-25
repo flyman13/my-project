@@ -1,0 +1,19 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px 40px;
+
+  &__icons {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__logo {
+    display: flex;
+
+    &-img {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-size: contain;      // змушує картинку масштабуватися всередині блока
+  background-repeat: no-repeat;  // прибираємо повтор
+  background-position: center;   // центрування
+  transition: filter 0.3s ease, background-image 0.3s ease;
+
+  &--phone { background-image: url(/src/images/Icon-Phone-call.png); }
+  &--menu { background-image: url(/src/images/Icon-Burger-menu.png); }
+  &--menu-click { background-image: url(/src/images/burger-click.png); }
+  &--close { background-image: url(/src/images/Icon-Close.png); }
+
+  &:hover {
+    filter: brightness(1.3);
+  }
+}
+
+
